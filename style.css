@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1c1b2a;
+  background: linear-gradient(135deg, #1c1b2a 0%, #2e2c45 50%, #1c1b2a 100%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -66,7 +66,7 @@ body {
   color: white;
   text-align: center;
 }
-#textFilipe{
+#textFilipe , #textMae , #textNiwia{
   width: 100%;
   text-align: left;
 }
@@ -84,4 +84,32 @@ body {
   height: 1px;
   background-color: white;
   margin-bottom: 20px;
+}
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background: linear-gradient(145deg, #2a293d, #1f1e2e);
+  border-radius: 20px;
+  width: fit-content;
+  margin: 20px auto;
+  transition: transform 0.3s ease;
+}
+
+.imagem:hover {
+  transform: scale(1.02);
+}
+
+#imgb {
+  border-radius: 15px;
+  border: 3px solid #ffffff22; /* leve borda translúcida */
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
+  object-fit: cover;
+}
+.feliz{
+  color: white;
+  filter: drop-shadow(2px 2px 20px white);
+  font-family: 'Lora', serif;
+  font-size: 25px;
 }
