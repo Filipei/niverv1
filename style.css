@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1c1b2a;
+  background: linear-gradient(135deg, #1c1b2a 0%, #2e2c45 50%, #1c1b2a 100%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -106,4 +106,10 @@ body {
   border: 3px solid #ffffff22; /* leve borda translúcida */
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
   object-fit: cover;
+}
+body #feliz{
+  color: white;
+  filter: drop-shadow(2px 2px 20px white);
+  font-family: 'Lora', serif;
+  font-size: 25px;
 }
